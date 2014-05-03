@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Databases SYSTEM "databases.dtd">
+<Databases>
+	<Database name="ORACLE_OPENLAB" >
+		<driver_class>oracle.jdbc.driver.OracleDriver</driver_class>
+		<url>jdbc:oracle:thin:@192.168.0.26:1521:tarena</url>
+		<user_name>openlab</user_name>
+		<password>open123</password>
+	</Database>  
+	<Database name="ORACLE_SD1006" >
+		<driver_class>oracle.jdbc.driver.OracleDriver</driver_class>
+		<url>jdbc:oracle:thin:@192.168.0.26:1521:tarena</url>
+		<user_name>sd1006</user_name>
+		<password>sd1006</password>
+	</Database>
+	<Database name="MYSQL">
+		<driver_class>org.gjt.mm.mysql.Driver</driver_class>
+		<url>jdbc:mysql://127.0.0.1:3306/t_3gabs_10</url>
+		<user_name>root</user_name>
+		<password>root</password>
+	</Database>
+</Databases>
